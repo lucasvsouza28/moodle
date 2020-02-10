@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = getenv('DATABASE_HOST');
-$CFG->dbname    = getenv('DATABASE_NAME');
-$CFG->dbuser    = getenv('DATABASE_USER');
-$CFG->dbpass    = getenv('DATABASE_PASSWORD');
+$CFG->dbhost    = 'us-cdbr-iron-east-04.cleardb.net';
+$CFG->dbname    = 'heroku_c22ddec42a86447';
+$CFG->dbuser    = 'b4f761dff1f0b5';
+$CFG->dbpass    = '91699f15';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
